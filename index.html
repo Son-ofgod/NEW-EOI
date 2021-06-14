@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EOI</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="mainhome.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar-menu">
+        <li class="nav-items">
+          <a href="#" class="logo">
+            <span class="link-text">entrepreneur's of interest</span>
+            <span class="icon"><i class="fas fa-angle-double-right"></i></span>
+          </a>
+        </li>
+        <li class="nav-items">
+          <a href="#" class="nav-link">
+            <span class="icon"><i class="fas fa-home"></i></span>
+            <span class="link-text">HOME</span>
+          </a>
+        </li>
+        <li class="nav-items">
+          <a href="#" class="nav-link">
+            <span class="icon"><i class="fas fa-book-reader"></i></span>
+            <span class="link-text">CASE STUDY</span>
+          </a>
+        </li>
+        <li class="nav-items">
+          <a href="#" class="nav-link">
+            <span class="icon"><i class="fas fa-person-booth"></i></span>
+            <span class="link-text">FOUNDER'S SPOTLIGHT </span>
+          </a>
+        </li>
+        <li class="nav-items">
+          <a href="#" class="nav-link">
+            <span class="icon"><i class="fas fa-fighter-jet"></i></span>
+            <span class="link-text">TECHNOLOGY</span>
+          </a>
+        </li>
+        <li class="nav-items">
+          <a href="#" class="nav-link">
+            <span class="icon"><i class="fas fa-building"></i></span>
+            <span class="link-text">COMPANIES</span>
+          </a>
+        </li>
+        <li class="nav-items">
+          <a href="#" class="nav-link">
+            <span class="icon"><i class="fas fa-hand-holding-usd"></i></span>
+            <span class="link-text">ECONOMY</span>
+          </a>
+        </li>
+        <li class="nav-items">
+          <a href="#" class="nav-link">
+            <span class="icon"><i class="fas fa-hands"></i></span>
+            <span class="link-text">WEALTH</span>
+          </a>
+        </li>
+        <li class="nav-items">
+          <a href="#" class="nav-link">
+            <span class="icon"><i class="fas fa-people-arrows"></i></span>
+            <span class="link-text">EXPERT'S OPINION</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <header>
+          <div class="left">
+            <a href="#"><h1>EOI</h1></a>
+          </div>
+
+          <!--
+
+            button - start/run/grow=
+            html
+            <div class="center">
+            <button type="button">Start</button>
+            <button type="button">Run</button>
+            <button type="button">Grow</button>
+          </div>
+          css
+          header .center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+}
+header .center button {
+  border: 3px solid #bd0d00;
+  margin-left: 10px;
+  color: black;
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+              html
+
+               <div class="wrapper">
+                 <div class="button">
+                   <div class="icon"><i class="fab fa-linkedin"></i></div>
+                   <span>Linkedin</span>
+                 </div>
+                 <div class="button">
+                   <div class="icon"><i class="fab fa-facebook-square"></i></div>
+                   <span>Facebook</span>
+                 </div>
+                 <div class="button">
+                   <div class="icon"><i class="fab fa-instagram-square"></i></div>
+                   <span>Instagram</span>
+                 </div>
+                 <div class="button">
+                   <div class="icon"><i class="fab fa-youtube-square"></i></div>
+                   <span>Youtube</span>
+                 </div>
+               </div>
+              -->
+          <!--
+              css
+              
+               header .right {
+                 display: grid;
+                 height: 100%;
+                 width: 100%;
+                 place-items:center;
+               }
+               .wrapper .button{
+                 display: inline-block;
+                 height: 60px;
+                 width: 60px;
+                 float: left;
+                 margin: 0 5px;
+                 overflow: hidden;
+                 background: #fff;
+                 background-radius: 50px;
+                 cursor: pointer;
+                 box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+                 transition: all 0.3s ease-out;
+               }
+               .wrapper .button: hover{
+                 width: 200px;
+               }
+               .wrapper .button .icon{
+                 display: inline-block;
+                 height: 60px;
+                 width: 60px;
+                 text-align: center;
+                 border-radius: 50px;
+                 box-sizing: border-box;
+                 line-height: 60px;
+                 transition: all 0.3s ease-out;
+               }
+               .wrapper .button:nth-child(1):hover .icon{
+                 background: #0077b5;
+               }
+               .wrapper .button:nth-child(2):hover .icon{
+                 background: #4267B2;
+               }
+               .wrapper .button:nth-child(3):hover .icon{
+                 background: #E1306c;
+               }
+               .wrapper .button:nth-child(4):hover .icon{
+                 background: #ff0000;
+               }
+               .wrapper .button .icon i{
+                 font-size: 25px;
+                 line-height: 60px;
+                 transition: all 0.3s ease-out;
+               }
+               .wrapper .button:hover .icon i{
+                 color: #fff;
+               }
+                .wrapper .button span{
+                  font-size: 20px;
+                  font-weight: 500;
+                  line-height:60px;
+                  margin-left: 10px
+                  transition: all 0.3s ease-out;
+                }
+                .wrapper .button:nth-child(1) span{
+                 color: #0077b5;
+               }
+               .wrapper .button:nth-child(2) span{
+                 color: #4267B2;
+               }
+               .wrapper .button:nth-child(3) span{
+                 color: #E1306c;
+               }
+               .wrapper .button:nth-child(4) span{
+                 color: #ff0000;
+               }
+              -->
+          <!--
+            <span class="icon"><i class="fab fa-linkedin"></i></span>
+            <span class="icon"><i class="fab fa-facebook-square"></i></span>
+            <span class="icon"><i class="fab fa-instagram-square"></i></span>
+            <span class="icon"><i class="fab fa-youtube-square"></i></span>
+          -->
+          <div class="right">
+            <div class="wrapper">
+              <div class="button">
+                <div class="icon"><i class="fab fa-linkedin"></i></div>
+                <span>Linkedin</span>
+              </div>
+              <div class="button">
+                <div class="icon"><i class="fab fa-facebook-square"></i></div>
+                <span>Facebook</span>
+              </div>
+              <div class="button">
+                <div class="icon"><i class="fab fa-instagram-square"></i></div>
+                <span>Instagram</span>
+              </div>
+              <div class="button">
+                <div class="icon"><i class="fab fa-youtube-square"></i></div>
+                <span>Youtube</span>
+              </div>
+            </div>
+          </div>
+        </header>
+      </section>
+      <section class="news-ticker">
+        <div>
+          <h3><b>Popular News -</b></h3>
+        </div>
+        <div class="news">
+          <div>
+            <span
+              >Lorem Ipsum is simply dummy text of the printing. This is news 1.
+              Read full news in "Economy" section.</span
+            >
+          </div>
+          <div>
+            <span
+              >Lorem Ipsum is simply dummy text of the printing. This is news 2.
+              Read full news in "Technology" section.</span
+            >
+          </div>
+          <div>
+            <span
+              >Lorem Ipsum is simply dummy text of the printing. This is news 3.
+              Read full news in "Companies" section.</span
+            >
+          </div>
+          <div>
+            <span
+              >Lorem Ipsum is simply dummy text of the printing. This is news 4.
+              Read full news in "Wealth" section.</span
+            >
+          </div>
+        </div>
+      </section>
+      <div class="grid-container">
+        <div class="grid-item-1">
+          <h1>Top 4 News</h1>
+          <hr />
+          <div class="timeline-container">
+            <div class="timeline">
+              <ul>
+                <li>
+                  <div class="timeline-content">
+                    <div class="image-box">
+                      <img src="Images/news1.jpg" alt="topnews-1" />
+                    </div>
+                    <hr />
+                    <div class="content">
+                      <h3>Tips for working from home during Covid-19</h3>
+                      <p>
+                        The global spread of COVID-19 has put offices and the
+                        government on high alert. And working from home is the
+                        new normal that professionals have to cope up with.
+                      </p>
+                      <button class="click">Read more</button>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-content">
+                    <div class="image-box">
+                      <img src="Images/news.jpg" alt="topnews-1" />
+                    </div>
+                    <hr />
+                    <div class="content">
+                      <h3>
+                        Analytics: What is it and why does it matter for
+                        businesses in 2021?
+                      </h3>
+                      <p>
+                        Data Analytics can be precisely understood as a system
+                        of inspecting, cleansing, transforming, and applying
+                        data to conclude functional information
+                      </p>
+                      <button class="click">Read more</button>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-content">
+                    <div class="image-box">
+                      <img src="Images/news3.jpg" alt="topnews-1" />
+                    </div>
+                    <hr />
+                    <div class="content">
+                      <h3>
+                        “Make a customer, not a sale”- Here about B2B Lead
+                        Generation in 2021
+                      </h3>
+                      <p>
+                        Lead generation in 2021 is one gravitating process of
+                        identifying potential and involved customers for your
+                        organization’s products or services and all you need is
+                        to grab their attention, provide value and prove that
+                        your product will solve their issues
+                      </p>
+                      <button class="click">Read more</button>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-content">
+                    <div class="image-box">
+                      <img src="Images/news4.jpg" alt="topnews-1" />
+                    </div>
+                    <hr />
+                    <div class="content">
+                      <h3>
+                        Traditional and Digital? Which form of marketing to opt
+                        for?
+                      </h3>
+                      <p>
+                        Marketing is one mechanism that is indeed an inevitable
+                        tool that is opted by all so as to extend and develop
+                        their business since ever. Companies have been setting
+                        in motion one or the other way of marketing which
+                        comprises traditional marketing and digital
+                      </p>
+                      <button class="click">Read more</button>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item-2">
+          <h1>Aseem Hanspal</h1>
+          <hr />
+          <div class="aseem-container">
+            <div class="aseem-content">
+              <div class="aseem-image">
+                <img src="Images/Aseem Hanspal-1.jpg" alt="topnews-1" />
+              </div>
+              <hr />
+              <div class="content">
+                <h3>Here’s a little bit about Aseem:</h3>
+                <p>
+                  Before jumping into the world of consulting for SMEs, Aseem
+                  held leadership positions at Larsen & Toubro and Max New York
+                  Life. In addition to being the Founder and Managing Director
+                  of SKOPE India Business Consulting, he is a Certified Gallup
+                  Strengths Coach and India’s first Builder Profile BP-10 Coach.
+                </p>
+
+                <button class="click">Read more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item-3">
+          <h1>Trending Post</h1>
+          <hr />
+          <div class="trending-container">
+            <ul>
+              <li>
+                <div class="post-container">
+                  <h3>Trending Post 1</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Illum, repellat odit!
+                  </p>
+                  <button class="click">Read more</button>
+                </div>
+              </li>
+              <li>
+                <div class="post-container">
+                  <h3>Trending Post 2</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Illum, repellat odit!
+                  </p>
+                  <button class="click">Read more</button>
+                </div>
+              </li>
+
+              <li>
+                <div class="post-container">
+                  <h3>Trending Post 3</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Illum, repellat odit!
+                  </p>
+                  <button class="click">Read more</button>
+                </div>
+              </li>
+
+              <li>
+                <div class="post-container">
+                  <h3>Trending Post 4</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Illum, repellat odit!
+                  </p>
+                  <button class="click">Read more</button>
+                </div>
+              </li>
+
+              <li>
+                <div class="post-container">
+                  <h3>Trending Post 5</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Illum, repellat odit!
+                  </p>
+                  <button class="click">Read more</button>
+                </div>
+              </li>
+
+              <li>
+                <div class="post-container">
+                  <h3>Trending Post 6</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Illum, repellat odit!
+                  </p>
+                  <button class="click">Read more</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid-item-4">
+          <h1>Entrepreneur Of Interest</h1>
+          <hr />
+          <div class="eoi-container">
+            <div class="col col-1">
+              <h2>START</h2>
+              <div class="caption">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Tempora molestias accusantium neque. Consequuntur, magnam
+                  facere.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Tempora molestias accusantium neque. Consequuntur, magnam
+                  facere.
+                </p>
+              </div>
+              <img src="Images/start.png" alt="start business" />
+              <button type="button">Know More</button>
+            </div>
+            <div class="col col-2">
+              <h2>RUN</h2>
+              <div class="caption">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Tempora molestias accusantium neque. Consequuntur, magnam
+                  facere.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Tempora molestias accusantium neque. Consequuntur, magnam
+                  facere.
+                </p>
+              </div>
+              <img src="Images/run-b.png" alt="run business" />
+              <button type="button">Know More</button>
+            </div>
+            <div class="col col-3">
+              <h2>GROW</h2>
+              <div class="caption">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Tempora molestias accusantium neque. Consequuntur, magnam
+                  facere.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Tempora molestias accusantium neque. Consequuntur, magnam
+                  facere.
+                </p>
+              </div>
+              <img src="Images/growth.png" alt="grow business" />
+              <button type="button">Know More</button>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item-5">
+          <div class="slider">
+            <div class="banner2">
+              <img src="Images/slider-img-2.jpg" alt="slide-1" />
+              <div class="text-box text-box2">
+                <h1>Founder's Success Story - 1</h1>
+                <span></span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                  architecto facilis at adipisci dignissimos quaerat enim et
+                  maiores asperiores officia minima eos itaque non explicabo
+                  reprehenderit, earum hic voluptatum blanditiis.
+                </p>
+              </div>
+            </div>
+            <div class="banner3">
+              <img src="Images/slider-img-3.jpg" alt="slide-1" />
+              <div class="text-box text-box3">
+                <h1>Founder's Success Story - 2</h1>
+                <span></span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                  architecto facilis at adipisci dignissimos quaerat enim et
+                  maiores asperiores officia minima eos itaque non explicabo
+                  reprehenderit, earum hic voluptatum blanditiis.
+                </p>
+              </div>
+            </div>
+            <div class="banner4">
+              <img src="Images/slider-img-4.jpg" alt="slide-1" />
+              <div class="text-box text-box4">
+                <h1>Founder's Success Story - 3</h1>
+                <span></span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                  architecto facilis at adipisci dignissimos quaerat enim et
+                  maiores asperiores officia minima eos itaque non explicabo
+                  reprehenderit, earum hic voluptatum blanditiis.
+                </p>
+              </div>
+            </div>
+            <div class="banner5">
+              <img src="Images/slider-img-5.jpg" alt="slide-1" />
+              <div class="text-box text-box5">
+                <h1>Founder's Success Story - 4</h1>
+                <span></span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                  architecto facilis at adipisci dignissimos quaerat enim et
+                  maiores asperiores officia minima eos itaque non explicabo
+                  reprehenderit, earum hic voluptatum blanditiis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item-6">
+          <h1>Videos</h1>
+          <hr />
+          <div class="img-container">
+            <div class="box">
+              <div class="img-box">
+                <img src="Images/topnews-1.jpg" alt="img-1" />
+              </div>
+              <div class="img-content">
+                <div>
+                  <h2>Image Title -1</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempore voluptatibus excepturi iure.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box">
+                <img src="Images/topnews-2.jpg" alt="img-1" />
+              </div>
+              <div class="img-content">
+                <div>
+                  <h2>Image Title -2</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempore voluptatibus excepturi iure.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box">
+                <img src="Images/topnews-3.jpg" alt="img-1" />
+              </div>
+              <div class="img-content">
+                <div>
+                  <h2>Image Title -3</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempore voluptatibus excepturi iure.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box">
+                <img src="Images/topnews-4.jpg" alt="img-1" />
+              </div>
+              <div class="img-content">
+                <div>
+                  <h2>Image Title -4</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempore voluptatibus excepturi iure.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <button class="click">See All</button>
+        </div>
+
+        <div class="grid-item-8">
+          <h1>Join Our Community</h1>
+          <hr />
+          <section>
+            <div class="join-content">
+              <div class="content">
+                <h1>Community Details</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+                  facilis possimus. Aliquam rem beatae natus pariatur explicabo
+                  nostrum quisquam officiis. Ipsam magni ut eaque! Totam natus
+                  rem repellat inventore libero facere, corporis, quos et
+                  accusamus ipsam debitis repellendus quam qui ducimus aliquam
+                  dolorem, ex quidem atque ipsum? Aperiam, at asperiores.
+                </p>
+                <button class="submit-button">Read More</button>
+              </div>
+            </div>
+            <div class="join-form">
+              <div class="login-form">
+                <div class="form-logo"></div>
+                <div class="form-title">Entrepreneur's Of Interest</div>
+                <div class="form-subtitle">JOIN OUR COMMUNITY</div>
+                <div class="fields">
+                  <div class="name">
+                    <svg class="svg-icon" fill="#999" viewBox="0 0 20 20">
+                      <path
+                        d="M12.075,10.812c1.358-0.853,2.242-2.507,2.242-4.037c0-2.181-1.795-4.618-4.198-4.618S5.921,4.594,5.921,6.775c0,1.53,0.884,3.185,2.242,4.037c-3.222,0.865-5.6,3.807-5.6,7.298c0,0.23,0.189,0.42,0.42,0.42h14.273c0.23,0,0.42-0.189,0.42-0.42C17.676,14.619,15.297,11.677,12.075,10.812 M6.761,6.775c0-2.162,1.773-3.778,3.358-3.778s3.359,1.616,3.359,3.778c0,2.162-1.774,3.778-3.359,3.778S6.761,8.937,6.761,6.775 M3.415,17.69c0.218-3.51,3.142-6.297,6.704-6.297c3.562,0,6.486,2.787,6.705,6.297H3.415z"
+                      ></path>
+                    </svg>
+                    <input type="Name" class="User-input" placeholder="Name" />
+                  </div>
+                  <div class="email">
+                    <svg class="svg-icon" fill="#999" viewBox="0 0 20 20">
+                      <path
+                        d="M17.388,4.751H2.613c-0.213,0-0.389,0.175-0.389,0.389v9.72c0,0.216,0.175,0.389,0.389,0.389h14.775c0.214,0,0.389-0.173,0.389-0.389v-9.72C17.776,4.926,17.602,4.751,17.388,4.751 M16.448,5.53L10,11.984L3.552,5.53H16.448zM3.002,6.081l3.921,3.925l-3.921,3.925V6.081z M3.56,14.471l3.914-3.916l2.253,2.253c0.153,0.153,0.395,0.153,0.548,0l2.253-2.253l3.913,3.916H3.56z M16.999,13.931l-3.921-3.925l3.921-3.925V13.931z"
+                      ></path>
+                    </svg>
+                    <input
+                      type="email"
+                      class="User-input"
+                      placeholder="E-mail"
+                    />
+                  </div>
+                </div>
+                <button class="submit-button">Submit</button>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="grid-item-9">
+          <div class="footer">
+            <div class="footer-left">
+              <h2>Disclaimer</h2>
+              <hr />
+              <div class="footer-logo"></div>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae
+                esse, cum at odit in reprehenderit modi distinctio delectus
+                maiores officiis!
+              </p>
+              <button class="submit-button-2">Write For Us</button>
+              <span>
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                  <path
+                    d="M10.403,15.231v2.035h2.827c0.223,0,0.403,0.181,0.403,0.404c0,0.223-0.181,0.403-0.403,0.403H6.77c-0.223,0-0.404-0.181-0.404-0.403c0-0.224,0.181-0.404,0.404-0.404h2.826v-2.035C6.89,15.024,4.751,12.758,4.751,10c0-0.223,0.181-0.403,0.404-0.403S5.559,9.777,5.559,10c0,2.449,1.992,4.441,4.441,4.441c2.449,0,4.441-1.992,4.441-4.441c0-0.223,0.182-0.403,0.404-0.403s0.403,0.18,0.403,0.403C15.248,12.758,13.108,15.024,10.403,15.231 M13.026,4.953V10c0,1.669-1.357,3.027-3.027,3.027S6.972,11.669,6.972,10V4.953c0-1.669,1.358-3.028,3.028-3.028S13.026,3.284,13.026,4.953M12.221,4.953c0-1.225-0.996-2.22-2.221-2.22s-2.221,0.995-2.221,2.22V10c0,1.225,0.996,2.22,2.221,2.22s2.221-0.995,2.221-2.22V4.953z"
+                  ></path>
+                </svg>
+                &nbsp; +91-82873-19199
+              </span>
+              <span>
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                  <path
+                    d="M17.218,2.268L2.477,8.388C2.13,8.535,2.164,9.05,2.542,9.134L9.33,10.67l1.535,6.787c0.083,0.377,0.602,0.415,0.745,0.065l6.123-14.74C17.866,2.46,17.539,2.134,17.218,2.268 M3.92,8.641l11.772-4.89L9.535,9.909L3.92,8.641z M11.358,16.078l-1.268-5.613l6.157-6.157L11.358,16.078z"
+                  ></path>
+                </svg>
+                &nbsp; info@eoi.com
+              </span>
+            </div>
+
+            <div class="footer-center">
+              <h2>Quick Links</h2>
+              <hr />
+              <br />
+              <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Case Study</a></li>
+                <li><a href="#">Founder's Spotlight</a></li>
+                <li><a href="#">Expert's Opinion</a></li>
+              </ul>
+            </div>
+            <div class="footer-right">
+              <div class="info">
+                <h2>Contact Us</h2>
+                <hr />
+                <br />
+                <form action="index.html" method="POST">
+                  <input
+                    type="email"
+                    name="email"
+                    class="text-input contact-input"
+                    placeholder="Your email"
+                  />
+                  <textarea
+                    name="message"
+                    class="text-input contact-input"
+                    placeholder="Your message"
+                  ></textarea>
+                  <button type="submit" class="btn btn-big">Send</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
